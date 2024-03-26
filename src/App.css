@@ -1,0 +1,225 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.blank {
+  color: red;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgb(113, 161, 113);
+}
+
+nav input {
+  margin-top: 22px;
+  margin-right: 30px;
+  color: blue;
+}
+
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  padding: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: purple;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li:hover {
+  text-decoration: underline;
+  color: purple;
+  cursor: pointer;
+}
+
+/* textarea {
+  margin-top: 1px;
+  margin-left: 280px;
+} */
+
+h1 {
+  margin-top: 4px;
+  margin-left: 280px;
+}
+
+.btn2 {
+  margin-top: 1px;
+  color: blue;
+  margin-left: 4px;
+}
+.btn1 {
+  margin-top: 1px;
+  margin-left: 280px;
+  color: blue;
+}
+h2 {
+  margin-top: 10px;
+  margin-left: 280px;
+}
+p {
+  margin-top: 1px;
+  margin-left: 280px;
+}
+.head {
+  margin-top: 20px;
+  margin-left: 280px;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colorPatern {
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: red;
+  width: 27px;
+    height: 27px;;
+}
+.colorPatern:hover {
+  cursor: pointer;
+}
+
+.colorblue {
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: blue;
+  width: 27px;
+    height: 27px;
+}
+
+.colorblue:hover {
+  cursor: pointer;
+}
+.colorgreen {
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: green;
+  width: 27px;
+  height: 27px;
+}
+.colorgreen:hover {
+  cursor: pointer;
+}
+
+.coloryellow {
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: yellow;
+  width: 27px;
+  height: 27px;
+}
+
+.coloryellow:hover {
+  cursor: pointer;
+}
+
+.colorghostwhite {
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: rgb(0, 92, 66);
+  width: 27px;
+  height: 27px;
+}
+.colorghostwhite:hover {
+  cursor: pointer;
+}
+
+.colorwhite {
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: white;
+  width: 27px;
+  height: 27px;
+}
+
+.colorwhite:hover {
+  cursor: pointer;
+}
+
+ul{
+
+margin-top: 1px;
+  margin-left: 270px;
+}
+
+ .btn1{
+  margin-top: 1px;
+  margin-left: 280px;
+}
+.btn {
+  margin-top: 1px;
+ 
+}
+form{
+margin-top: 1px;
+  margin-left: 280px;
+}
+
+.btn{
+  margin-top: 1px;
+    margin-left: 280px;
+}
+section{
+        margin-left: 114px;
+          
+          border: 2px solid black;
+          
+}
+.border{
+  border: 1px solid black;
+  width: 200px;
+}
+
+.textArea {
+margin-left:240px ;
+}
